@@ -35,7 +35,7 @@ An opamp has two input terminals:
 ### 3.1.4 Inverting Opamp
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79280494-1d68ed80-7ece-11ea-8bb8-1f8cbe954b41.png"/>
 </p>
 
 ### 3.1.5 Opamp as buffer
