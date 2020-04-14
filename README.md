@@ -10,6 +10,8 @@ comparison, analog to digital conversion etc. Opamp are used is analog computers
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
 </p>
+                                              
+                                              Figure 21: schematic symbol of Op-amp
 
                               
 IC 741 is widely used Op-amp. In this IC when input is zero, the output can be adjusted
