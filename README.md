@@ -6,8 +6,11 @@ and an one output, but generally it is operated in single ended input-single end
 output mode. The differential amplifier forms the first stage of an op-amp. Opamp can
 perform several arithmetic operations like addition, subtraction, differentiation, integration,
 comparison, analog to digital conversion etc. Opamp are used is analog computers.
-                              
-                                                            FIGURE 21
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
                               
 IC 741 is widely used Op-amp. In this IC when input is zero, the output can be adjusted
 to zero by varying the 10K potentiometer between offset null terminal.
@@ -15,7 +18,9 @@ to zero by varying the 10K potentiometer between offset null terminal.
 
 ### 3.1.2 Block diagram and inputs
 
-                                                            FIGURE 22
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>                                                          
 
 An opamp has two input terminals:
 1. Non-inverting input: output signal is in phase with input signal, denoted by (+).
