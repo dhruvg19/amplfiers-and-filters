@@ -85,13 +85,21 @@ signal.
 • Inductive High Pass Filter
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281779-1abbc780-7ed1-11ea-85ee-1b1b618269d6.png"/>
 </p>
 
 • Capacitive High Pass Filter
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281812-2e672e00-7ed1-11ea-966f-ea8dcd59d2bb.png"/>
+</p>
+
+## 4.3 Band Pass Filter
+
+Combining the properties of low-pass and high-pass into a single filter creates a Band Pass Filter.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79281910-68d0cb00-7ed1-11ea-83af-c4e0dad5f7d0.png"/>
 </p>
 
 ## 4.4 Band Stop Filter
@@ -100,7 +108,7 @@ This kind of filter passes all frequencies above and below a particular range se
 component values.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281938-7c7c3180-7ed1-11ea-856e-b738ce577a63.png"/>
 </p>
 
 ## 4.5 Active Filter:
@@ -122,7 +130,7 @@ known as active filter.
 • It provides reliable operation
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281973-91f15b80-7ed1-11ea-8553-77d71371d86d.png"/>
 </p>
 
 ## 4.6 Passive Filter
@@ -142,7 +150,7 @@ filter.
 • High Efficiency
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79282000-a7ff1c00-7ed1-11ea-8e74-28eb61a22677.png"/>
 </p>
 
 **Applications**
