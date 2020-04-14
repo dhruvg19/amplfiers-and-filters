@@ -11,7 +11,7 @@ comparison, analog to digital conversion etc. Opamp are used is analog computers
 <img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
 </p>
                                               
-                                              Figure 21: schematic symbol of Op-amp
+                                          Figure 21: schematic symbol of Op-amp
 
                               
 IC 741 is widely used Op-amp. In this IC when input is zero, the output can be adjusted
@@ -22,7 +22,9 @@ to zero by varying the 10K potentiometer between offset null terminal.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79280246-8865f480-7ecd-11ea-86ad-5d4910c293a9.png"/>
-</p>                                                          
+</p>         
+
+                                           Figure 22: Block diagram of Opamp
 
 An opamp has two input terminals:
 1. Non-inverting input: output signal is in phase with input signal, denoted by (+).
@@ -33,6 +35,8 @@ An opamp has two input terminals:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79280344-c400be80-7ecd-11ea-88fb-ade10137fc83.png"/>
 </p>
+
+                                            Figure 23: Non-inverting Opamp
  
 ### 3.1.4 Inverting Opamp
 
@@ -40,11 +44,15 @@ An opamp has two input terminals:
 <img src="https://user-images.githubusercontent.com/63674480/79280494-1d68ed80-7ece-11ea-8bb8-1f8cbe954b41.png"/>
 </p>
 
+                                            Figure 24: Inverting Opamp
+
 ### 3.1.5 Opamp as buffer
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281309-1d69ed00-7ed0-11ea-85f7-44c9ad8421f3.png"/>
 </p>
+
+                                             Figure 25: Opamp as buffer
                                                            
 # SECTION 4: ACTIVE AND PASSIVE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
