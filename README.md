@@ -44,7 +44,7 @@ An opamp has two input terminals:
 <img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
 </p>
                                                            
-# SECTION 4: ACTIVE AND PASSICE FILTERS
+# SECTION 4: ACTIVE AND PASSIVE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
 output accordingly. It filters or eliminates some frequencies and passes some
 frequencies. Hence it provides different attenuation to different frequencies. Based on
@@ -67,7 +67,97 @@ used to attenuate a narrow range of frequencies.
  
 • Inductive Low-Pass Filter
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
 • Capacitive Low-Pass Filter
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
+## 4.2 High Pass Filter
+
+Offers easy passage of a high-frequency signal and difficult passage to a low-frequency
+signal.
+
+• Inductive High Pass Filter
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
+• Capacitive High Pass Filter
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
+## 4.4 Band Stop Filter
+
+This kind of filter passes all frequencies above and below a particular range set by the
+component values.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
+## 4.5 Active Filter:
+
+This filter type uses active components such as OP-AMP (i.e. operational amplifier) in
+addition to Resistors (R) and Capacitors (C) in the construction of the filter. Hence it is
+known as active filter.
+
+**Advantages**
+
+• No resonance issues.
+
+• It can eliminate any harmonics
+
+• Used for voltage regulation
+
+• Used for reactive power compensation
+
+• It provides reliable operation
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
+## 4.6 Passive Filter
+
+This filter type uses passive components such as resistors (R), coils or inductors (L) and
+condenser or capacitors (C) in the construction of filter. Hence it is known as passive
+filter.
+
+**Advantages**
+
+• Cheap
+
+• Reliable
+
+• Easy Design
+
+• High Efficiency
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
+**Applications**
+
+• Radio communications: Filters enable radio receivers to only "see" the desired
+signal while rejecting all other signals (assuming that the other signals have different
+frequency content).
+
+• DC power supplies: Filters are used to eliminate undesired high frequencies (i.e.,
+noise) that are present on AC input lines. Additionally, filters are used on a power
+supply’s output to reduce ripple.
+
+• Analog-to-digital conversion: Filters are placed in front of an ADC input to minimize
+aliasing.
+
 
 
                                     
