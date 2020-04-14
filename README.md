@@ -28,14 +28,21 @@ An opamp has two input terminals:
 
 ### 3.1.3 Non-inverting Opamp
 
-                                                            FIGURE 23
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79280344-c400be80-7ecd-11ea-88fb-ade10137fc83.png"/>
+</p>
  
 ### 3.1.4 Inverting Opamp
 
-                                                            FIGURE 24
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
+
 ### 3.1.5 Opamp as buffer
 
-                                                           FIGURE 25
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
                                                            
 # SECTION 4: ACTIVE AND PASSICE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
@@ -51,7 +58,9 @@ band-pass filter, and the notch filter (or the band-reject or band-stop filter).
 notch filter is a bandstop filter with a narrow bandstop bandwidth. Notch filters are
 used to attenuate a narrow range of frequencies.
 
-                                                             FIGURE 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+</p>
  
  ## 4.1 Low Pass Filter
  Allows low-frequency signals and difficult passage to high-frequency signals.
