@@ -41,7 +41,7 @@ An opamp has two input terminals:
 ### 3.1.5 Opamp as buffer
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281309-1d69ed00-7ed0-11ea-85f7-44c9ad8421f3.png"/>
 </p>
                                                            
 # SECTION 4: ACTIVE AND PASSIVE FILTERS
@@ -59,7 +59,7 @@ notch filter is a bandstop filter with a narrow bandstop bandwidth. Notch filter
 used to attenuate a narrow range of frequencies.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281389-3ecad900-7ed0-11ea-8467-d8e1fadf0f9f.png"/>
 </p>
  
  ## 4.1 Low Pass Filter
@@ -68,13 +68,13 @@ used to attenuate a narrow range of frequencies.
 • Inductive Low-Pass Filter
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281436-55713000-7ed0-11ea-96ee-7b6af18e047e.png"/>
 </p>
 
 • Capacitive Low-Pass Filter
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79281473-6ae65a00-7ed0-11ea-923b-a9e1530facb8.png"/>
 </p>
 
 ## 4.2 High Pass Filter
