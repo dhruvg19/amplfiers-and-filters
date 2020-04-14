@@ -19,7 +19,7 @@ to zero by varying the 10K potentiometer between offset null terminal.
 ### 3.1.2 Block diagram and inputs
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79280246-8865f480-7ecd-11ea-86ad-5d4910c293a9.png"/>
 </p>                                                          
 
 An opamp has two input terminals:
