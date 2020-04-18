@@ -55,7 +55,7 @@ An opamp has two input terminals:
 
                                             Figure 23: Non-inverting Opamp
 
-using the formula to calculate the output voltage of a potential divider network, we can calculate the closed-loop voltage gain (A<sub>V</sub>) of the Non-inverting Amplifier as follows:
+Using the formula to calculate the output voltage of a potential divider network, we can calculate the closed-loop voltage gain (A<sub>V</sub>) of the Non-inverting Amplifier as follows:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79672656-c9be1300-81f1-11ea-8431-53c14e15ae83.png"/>
@@ -71,7 +71,7 @@ using the formula to calculate the output voltage of a potential divider network
                                             Figure 24: Inverting Opamp
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79672858-279f2a80-81f3-11ea-94fc-3f9629a8504c"/>
+<img src="https://user-images.githubusercontent.com/63674480/79672883-5a492300-81f3-11ea-830f-4eb295299641.png"/>
 </p>
 
 ### 3.1.6 Opamp as buffer
