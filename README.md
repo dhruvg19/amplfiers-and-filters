@@ -50,10 +50,22 @@ An opamp has two input terminals:
 ### 3.1.4 Non-inverting Opamp
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79280344-c400be80-7ecd-11ea-88fb-ade10137fc83.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79672644-a72bfa00-81f1-11ea-83c8-c0ae1fd98b57.png"/>
 </p>
 
                                             Figure 23: Non-inverting Opamp
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79672656-c9be1300-81f1-11ea-8431-53c14e15ae83.png"/>
+</p>
+
+Note that the feedback is still negative (output fed back to the inverting terminal of the OA).
+
+Input V<sub>in</sub> is applied to the non-inverting terminal.
+
+**Applying the Summing Point constraint:**
+
+i<sub>IN</sub>=i<sub>F</sub> => -V<sub>in</sub>/R<sub>1</sub>=(V<sub>in</sub>-V<sub>out</sub>)/R<sub>2</sub>
  
 ### 3.1.5 Inverting Opamp
 
@@ -62,6 +74,10 @@ An opamp has two input terminals:
 </p>
 
                                             Figure 24: Inverting Opamp
+
+One very important assumption in Op-Amp circuit analysis: R<sub>i</sub>->infinity => input current to Op-Amp=0
+
+=> i<sub>IN</sub>=i<sub>F</sub> => (V<sub>In</sub>-V<sub>2</sub>)/R<sub>IN</sub>=(V<sub>2</sub>-V<sub>Out</sub>)/R<sub>F</sub>
 
 ### 3.1.6 Opamp as buffer
 
