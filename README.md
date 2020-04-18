@@ -17,8 +17,25 @@ comparison, analog to digital conversion etc. Opamp are used is analog computers
 IC 741 is widely used Op-amp. In this IC when input is zero, the output can be adjusted
 to zero by varying the 10K potentiometer between offset null terminal.
 
+### 3.1.2 Virtual Ground and Summing Point Constraint
 
-### 3.1.2 Block diagram and inputs
+**Valid only when the OA is under negative feedback**
+
+Due to the large open loop gain of the OA, the difference between the voltages at the inverting and
+non-inverting terminals is vanishingly small. Thus, if the non-inverting terminal is grounded (i.e. Real Ground,
+), then the inverting terminal is also assumed to be at ground potential , even though actually it may
+not be so. This terminal is Known as Virtual Ground (to distinguish it from actual ground).
+
+The assumption that V<sup>+</sup>=V<sup>-</sup> as well as i<sub>1</sub>=i<sub>2</sub> is known as the 
+Summing Point Constraint. These two assumptions make the analysis of OA circuits absolutely trivial
+Extending this argument, we can say that for OAs under negative feedback, the voltages at the inverting
+and non-inverting terminals always track each other, such that their difference is zero (almost!)
+
+**Caution:-** These assumptions are applicable only for OAs under negative feedback, never apply these
+assumptions when the OA is under positive feedback.
+
+
+### 3.1.3 Block diagram and inputs
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79671259-d2f5b280-81e6-11ea-9e0f-d6dd67df44dd.png"/>
@@ -30,7 +47,7 @@ An opamp has two input terminals:
 1. Non-inverting input: output signal is in phase with input signal, denoted by (+).
 2. Inverting input: output signal is out of phase with input signal, denoted by (-).
 
-### 3.1.3 Non-inverting Opamp
+### 3.1.4 Non-inverting Opamp
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79280344-c400be80-7ecd-11ea-88fb-ade10137fc83.png"/>
@@ -38,7 +55,7 @@ An opamp has two input terminals:
 
                                             Figure 23: Non-inverting Opamp
  
-### 3.1.4 Inverting Opamp
+### 3.1.5 Inverting Opamp
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79280494-1d68ed80-7ece-11ea-8bb8-1f8cbe954b41.png"/>
@@ -46,7 +63,7 @@ An opamp has two input terminals:
 
                                             Figure 24: Inverting Opamp
 
-### 3.1.5 Opamp as buffer
+### 3.1.6 Opamp as buffer
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281309-1d69ed00-7ed0-11ea-85f7-44c9ad8421f3.png"/>
@@ -121,7 +138,27 @@ component values.
 <img src="https://user-images.githubusercontent.com/63674480/79281938-7c7c3180-7ed1-11ea-856e-b738ce577a63.png"/>
 </p>
 
-## 4.5 Active Filter:
+## 4.5 Passive Filter
+
+This filter type uses passive components such as resistors (R), coils or inductors (L) and
+condenser or capacitors (C) in the construction of filter. Hence it is known as passive
+filter.
+
+**Advantages**
+
+• Cheap
+
+• Reliable
+
+• Easy Design
+
+• High Efficiency
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79282000-a7ff1c00-7ed1-11ea-8e74-28eb61a22677.png"/>
+</p>
+
+## 4.6 Active Filter:
 
 This filter type uses active components such as OP-AMP (i.e. operational amplifier) in
 addition to Resistors (R) and Capacitors (C) in the construction of the filter. Hence it is
@@ -143,25 +180,6 @@ known as active filter.
 <img src="https://user-images.githubusercontent.com/63674480/79281973-91f15b80-7ed1-11ea-8553-77d71371d86d.png"/>
 </p>
 
-## 4.6 Passive Filter
-
-This filter type uses passive components such as resistors (R), coils or inductors (L) and
-condenser or capacitors (C) in the construction of filter. Hence it is known as passive
-filter.
-
-**Advantages**
-
-• Cheap
-
-• Reliable
-
-• Easy Design
-
-• High Efficiency
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79282000-a7ff1c00-7ed1-11ea-8e74-28eb61a22677.png"/>
-</p>
 
 **Applications**
 
