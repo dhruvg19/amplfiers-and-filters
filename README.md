@@ -70,9 +70,9 @@ using the formula to calculate the output voltage of a potential divider network
 
                                             Figure 24: Inverting Opamp
 
-One very important assumption in Op-Amp circuit analysis: R<sub>i</sub>->infinity => input current to Op-Amp=0
-
-=> i<sub>IN</sub>=i<sub>F</sub> => (V<sub>In</sub>-V<sub>2</sub>)/R<sub>IN</sub>=(V<sub>2</sub>-V<sub>Out</sub>)/R<sub>F</sub>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79672858-279f2a80-81f3-11ea-94fc-3f9629a8504c"/>
+</p>
 
 ### 3.1.6 Opamp as buffer
 
