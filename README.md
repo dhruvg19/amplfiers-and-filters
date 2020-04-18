@@ -74,13 +74,42 @@ Using the formula to calculate the output voltage of a potential divider network
 <img src="https://user-images.githubusercontent.com/63674480/79672883-5a492300-81f3-11ea-830f-4eb295299641.png"/>
 </p>
 
-### 3.1.6 Opamp as buffer
+### 3.1.6 Summing Amplifier Circuit
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673016-6ed9eb00-81f4-11ea-8b2e-92ec5caa8803.png"/>
+</p>
+
+                                             Figure 25: Summing Amplifier
+
+In this simple summing amplifier circuit, the output voltage, (V<sub>out</sub>) now becomes proportional to the sum of the input voltages, V<sub>1</sub>, V<sub>2</sub>, V<sub>3</sub>, etc. Then we can modify the original equation for the inverting amplifier to take account of these new inputs thus:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673033-7ef1ca80-81f4-11ea-9698-ae17cace4406.png"/>
+</p>
+
+### 3.1.7 The Differential Amplifier
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673112-0fc8a600-81f5-11ea-865f-62eed443b0a1.png"/>
+</p>
+
+                                              Figure 26: Differential Amplifier
+
+By connecting each input in turn to 0v ground we can use superposition to solve for the output voltage Vout. Then the transfer function for a Differential Amplifier circuit is given as:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673119-2111b280-81f5-11ea-8d48-c367ceb1a120.png"/>
+</p>
+
+
+### 3.1.8 Opamp as buffer
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281309-1d69ed00-7ed0-11ea-85f7-44c9ad8421f3.png"/>
 </p>
 
-                                             Figure 25: Opamp as buffer
+                                             Figure 27: Opamp as buffer
                                                            
 # SECTION 4: ACTIVE AND PASSIVE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
