@@ -102,14 +102,51 @@ By connecting each input in turn to 0v ground we can use superposition to solve 
 <img src="https://user-images.githubusercontent.com/63674480/79673119-2111b280-81f5-11ea-8d48-c367ceb1a120.png"/>
 </p>
 
+### 3.1.8 The Differentiator Amplifier
 
-### 3.1.8 Opamp as buffer
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673460-8bc3ed80-81f7-11ea-9637-b7b0822f0723.png"/>
+</p>
+
+                                               Figure 27: Differentiator Amplifier
+
+Since the node voltage of the operational amplifier at its inverting input terminal is zero, the current, i flowing through the capacitor will be given as:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673467-9b433680-81f7-11ea-814f-f778db95d274.png"/>
+</p>
+
+The charge on the capacitor equals Capacitance times Voltage across the capacitor
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673472-af873380-81f7-11ea-84e0-e3685479e6a7.png"/>
+</p>
+
+Thus the rate of change of this charge is:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673478-bf067c80-81f7-11ea-94b2-60dc51ceaa87.png"/>
+</p>
+
+but dQ/dt is the capacitor current, i
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673494-e2312c00-81f7-11ea-9e56-9550f482aeed.png"/>
+</p>
+
+from which we have an ideal voltage output for the op-amp differentiator is given as:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79673516-f2490b80-81f7-11ea-811f-804dca3dbe9e.png"/>
+</p>
+
+### 3.1.9 Opamp as buffer
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281309-1d69ed00-7ed0-11ea-85f7-44c9ad8421f3.png"/>
 </p>
 
-                                             Figure 27: Opamp as buffer
+                                             Figure 28: Opamp as buffer
                                                            
 # SECTION 4: ACTIVE AND PASSIVE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
