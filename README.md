@@ -274,7 +274,7 @@ Combining the properties of low-pass and high-pass into a single filter creates 
 <img src="https://user-images.githubusercontent.com/63674480/79281910-68d0cb00-7ed1-11ea-83af-c4e0dad5f7d0.png"/>
 </p>
 
-                                                 Figure 4.3: Band Pass Filter
+                                                 Figure 4.6: Band Pass Filter
 
 ## 4.4 Band Stop Filter
 
@@ -285,7 +285,7 @@ component values.
 <img src="https://user-images.githubusercontent.com/63674480/79281938-7c7c3180-7ed1-11ea-856e-b738ce577a63.png"/>
 </p>
 
-                                                Figure 4.4: Band Stop Filter
+                                                Figure 4.7: Band Stop Filter
 
 ## 4.5 Passive Filter
 
@@ -307,7 +307,7 @@ filter.
 <img src="https://user-images.githubusercontent.com/63674480/79282000-a7ff1c00-7ed1-11ea-8e74-28eb61a22677.png"/>
 </p>
 
-                                                  Figure 4.5: Passive Filter
+                                                  Figure 4.8: Passive Filter
 
 ## 4.6 Active Filter:
 
@@ -331,7 +331,7 @@ known as active filter.
 <img src="https://user-images.githubusercontent.com/63674480/79281973-91f15b80-7ed1-11ea-8553-77d71371d86d.png"/>
 </p>
 
-                                                Figure 4.6: Active Filter
+                                                Figure 4.9: Active Filter
 
 
 **Applications**
