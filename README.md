@@ -38,7 +38,7 @@ assumptions when the OA is under positive feedback.
 ### 3.1.3 Block diagram and inputs
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79671259-d2f5b280-81e6-11ea-9e0f-d6dd67df44dd.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79919797-ae027900-844c-11ea-967f-429f34877b23.png"/>
 </p>         
 
                                            Figure 3.2: Block diagram of Opamp
