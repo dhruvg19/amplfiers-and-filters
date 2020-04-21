@@ -65,7 +65,7 @@ The positive pin is connected to ground.
 <img src="https://user-images.githubusercontent.com/63674480/79920585-0f771780-844e-11ea-942c-614a4e5a1fb4.png"/>
 </p>
 
-                                            Figure 3.4: Inverting Opamp
+                                            Figure 3.3: Inverting Opamp
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79920635-287fc880-844e-11ea-893c-0efeb1eb7a4e.png"/>
@@ -83,7 +83,7 @@ This configuration is very similar to the inverting operation amplifier. For the
 <img src="https://user-images.githubusercontent.com/63674480/79920684-4816f100-844e-11ea-82d5-5426bc613aa5.png"/>
 </p>
 
-                                            Figure 3.3: Non-inverting Opamp
+                                            Figure 3.4: Non-inverting Opamp
 
 
 <p align="center">
@@ -111,7 +111,7 @@ It is worth noticing that adding several voltages is not a very flexible solutio
 
 The resistors would need to be changed to get Vs = V<sub>1</sub> + V<sub>2</sub> + V<sub>3</sub>, or a 2<sup>nd</sup> option is to use an inverting summer amplifier.
 
-### Inverting Summing Amplifier
+### 3.1.8 Inverting Summing Amplifier
 
 By adding resistors in parallel on the inverting input pin of the inverting operation amplifier circuit, all the voltages are summed.
 
@@ -128,7 +128,7 @@ By adding resistors in parallel on the inverting input pin of the inverting oper
 
 Unlike the non-inverting summing amplifier, any number of voltages can be added without changing resistor values.
 
-### 3.1.7 The Differential Amplifier
+### 3.1.9 The Differential Amplifier
 
 The inverting operational amplifier amplified a voltage that was applied on the inverting pin, and the output voltage was out of phase. The non-inverting pin is connected to ground with this configuration.
 
@@ -138,50 +138,44 @@ If the above circuit is modified by applying a voltage through a voltage divider
 <img src="https://user-images.githubusercontent.com/63674480/79922082-e6a45180-8450-11ea-8141-07d33b8099f7.png"/>
 </p>
 
-                                              Figure 3.6: Differential Amplifier
+                                              Figure 3.7: Differential Amplifier
 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79922127-03d92000-8451-11ea-96f3-4f543e402952.png"/>
 </p>
 
-### 3.1.8 The Differentiator Amplifier
+### 3.1.10 Integrator
+
+A square wave is very easy to generate, by just toggling a GPIO of a microcontroller for example. If a circuit needs a triangle waveform, a good way to do it is just integrating the square wave signal. With an Operation Amplifier, a capacitor on the inverting feedback path, and a resistor on the input inverting pin as shown below, the input signal is integrated.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673460-8bc3ed80-81f7-11ea-9637-b7b0822f0723.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79923212-b8277600-8452-11ea-9829-be0c7e775be6.png"/>
 </p>
 
-                                               Figure 3.7: Differentiator Amplifier
-
-Since the node voltage of the operational amplifier at its inverting input terminal is zero, the current, i flowing through the capacitor will be given as:
+                                               Figure 3.9: Integr Amplifier
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673467-9b433680-81f7-11ea-814f-f778db95d274.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79923333-e9a04180-8452-11ea-93e4-8d30a7c8b22e.png"/>
 </p>
 
-The charge on the capacitor equals Capacitance times Voltage across the capacitor
+Be aware that a resistor is often connected in parallel to the capacitor for saturation issues. Indeed, if the input signal is a very low frequency sine wave, the capacitor acts like an open circuit and blocks feedback voltage. The amplifier is then like a normal open-loop amplifier that has very high open-loop gain, and the amplifier is saturated. Thanks to a resistor in parallel of the capacitor, the circuit behaves like an inverting amplifier with a low frequency, and saturation is avoided.
+
+
+### 3.1.11 The Differentiator Amplifier
+
+The differentiator works similarly to the integrator by swapping the capacitor and the resistor.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673472-af873380-81f7-11ea-84e0-e3685479e6a7.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79922847-f6706580-8451-11ea-9bf6-deece1bddb7a.png"/>
 </p>
 
-Thus the rate of change of this charge is:
+                                               Figure 3.9: Differentiator Amplifier
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673478-bf067c80-81f7-11ea-94b2-60dc51ceaa87.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79922883-0720db80-8452-11ea-937a-45d480c13e57.png"/>
 </p>
 
-but dQ/dt is the capacitor current, i
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673494-e2312c00-81f7-11ea-9e56-9550f482aeed.png"/>
-</p>
-
-from which we have an ideal voltage output for the op-amp differentiator is given as:
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673516-f2490b80-81f7-11ea-811f-804dca3dbe9e.png"/>
-</p>
 
 ### 3.1.9 Opamp as buffer
 
