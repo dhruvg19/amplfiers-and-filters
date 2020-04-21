@@ -107,9 +107,9 @@ To add 2 voltages, only 2 resistors can be added on the positive pin to the non-
 <img src="https://user-images.githubusercontent.com/63674480/79921529-f53e3900-844f-11ea-8cbe-07421c30614b.png"/>
 </p>
 
-It is worth noticing that adding several voltages is not a very flexible solution. Indeed, if a 3 <sup>rd</sup> voltage is added with exactly the same resistances, the formula would be Vs = 2/3 (V <sub>1</sub> + V <sub>2</sub> + V <sub>3</sub>).
+It is worth noticing that adding several voltages is not a very flexible solution. Indeed, if a 3<sup>rd</sup> voltage is added with exactly the same resistances, the formula would be Vs = 2/3 (V<sub>1</sub> + V<sub>2</sub> + V<sub>3</sub>).
 
-The resistors would need to be changed to get Vs = V <sub>1</sub> + V <sub>2</sub> + V <sub>3</sub>, or a 2 <sup>nd</sup> option is to use an inverting summer amplifier.
+The resistors would need to be changed to get Vs = V<sub>1</sub> + V<sub>2</sub> + V<sub>3</sub>, or a 2<sup>nd</sup> option is to use an inverting summer amplifier.
 
 ### Inverting Summing Amplifier
 
@@ -130,16 +130,19 @@ Unlike the non-inverting summing amplifier, any number of voltages can be added 
 
 ### 3.1.7 The Differential Amplifier
 
+The inverting operational amplifier amplified a voltage that was applied on the inverting pin, and the output voltage was out of phase. The non-inverting pin is connected to ground with this configuration.
+
+If the above circuit is modified by applying a voltage through a voltage divider on the non-inverting, we end up with a differential amplifier as shown below.
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673112-0fc8a600-81f5-11ea-865f-62eed443b0a1.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79922082-e6a45180-8450-11ea-8141-07d33b8099f7.png"/>
 </p>
 
                                               Figure 3.6: Differential Amplifier
 
-By connecting each input in turn to 0v ground we can use superposition to solve for the output voltage Vout. Then the transfer function for a Differential Amplifier circuit is given as:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673119-2111b280-81f5-11ea-8d48-c367ceb1a120.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79922127-03d92000-8451-11ea-96f3-4f543e402952.png"/>
 </p>
 
 ### 3.1.8 The Differentiator Amplifier
