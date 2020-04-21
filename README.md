@@ -153,7 +153,7 @@ A square wave is very easy to generate, by just toggling a GPIO of a microcontro
 <img src="https://user-images.githubusercontent.com/63674480/79923212-b8277600-8452-11ea-9829-be0c7e775be6.png"/>
 </p>
 
-                                               Figure 3.9: Integr Amplifier
+                                               Figure 3.8: Integrator Amplifier
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79923333-e9a04180-8452-11ea-93e4-8d30a7c8b22e.png"/>
@@ -176,14 +176,35 @@ The differentiator works similarly to the integrator by swapping the capacitor a
 <img src="https://user-images.githubusercontent.com/63674480/79922883-0720db80-8452-11ea-937a-45d480c13e57.png"/>
 </p>
 
+### 3.1.12 Schmitt trigger
 
-### 3.1.9 Opamp as buffer
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79923717-c75af380-8453-11ea-8473-68b14e2bcc17.png"/>
+</p>
+
+                                             Figure 3.10: Schmitt trigger
+ 
+ In this configuration, the input voltage is applied through the resistor R<sub>1</sub> (which may be the source internal resistance) to the non-inverting input and the inverting input is grounded or referenced. The hysteresis curve is non-inverting and the switching thresholds are ![alt text](https://user-images.githubusercontent.com/63674480/79924277-076ea600-8455-11ea-9fa0-9c78143a736c.png) where V<sub>sat</sub>  is the greatest output magnitude of the operational amplifier.
+
+### 3.1.13 Instrumentation amplifier	
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79923991-5d8f1980-8454-11ea-8bfb-b8f077289acc.png"/>
+</p>
+
+                                             Figure 3.11: Instrumentation amplifier	
+
+Combines very high input impedance, high common-mode rejection, low DC offset, and other properties used in making very accurate, low-noise measurements.
+
+It is made by adding a non-inverting buffer to each input of the differential amplifier to increase the input impedance.
+
+### 3.1.14 Opamp as buffer
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281309-1d69ed00-7ed0-11ea-85f7-44c9ad8421f3.png"/>
 </p>
 
-                                             Figure 3.8: Opamp as buffer
+                                             Figure 3.12: Opamp as buffer
                                                            
 # SECTION 4: ACTIVE AND PASSIVE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
