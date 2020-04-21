@@ -49,30 +49,41 @@ An opamp has two input terminals:
 
 ### 3.1.4 Non-inverting Opamp
 
+This configuration is very similar to the inverting operation amplifier. For the non-inverting one, the input voltage is directly to the applied to the non-inverting pin and the end of feedback loop is connected to ground.
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79672644-a72bfa00-81f1-11ea-83c8-c0ae1fd98b57.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79920684-4816f100-844e-11ea-82d5-5426bc613aa5.png"/>
 </p>
 
                                             Figure 3.3: Non-inverting Opamp
 
-Using the formula to calculate the output voltage of a potential divider network, we can calculate the closed-loop voltage gain (A<sub>V</sub>) of the Non-inverting Amplifier as follows:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79672656-c9be1300-81f1-11ea-8431-53c14e15ae83.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79920740-67158300-844e-11ea-88e9-9dc5d880d60a.png"/>
 </p>
+
+These configurations allow amplification of one signal. It’s possible to amplify several signals by using summing amplifiers.
 
  
 ### 3.1.5 Inverting Opamp
 
+In this configuration, the output is fed back to the negative or inverting input through a resistor (R2). The input signal is applied to this inverting pin through a resistor (R1).
+
+The positive pin is connected to ground.
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79280494-1d68ed80-7ece-11ea-8bb8-1f8cbe954b41.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79920585-0f771780-844e-11ea-942c-614a4e5a1fb4.png"/>
 </p>
 
                                             Figure 3.4: Inverting Opamp
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79672883-5a492300-81f3-11ea-830f-4eb295299641.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79920635-287fc880-844e-11ea-893c-0efeb1eb7a4e.png"/>
 </p>
+
+This is evident in the special case where R1 and R2 are equal. This configuration allows for the production of a signal that is complementary to the input, as the output is exactly the opposite of the input signal.
+
+Due to the negative sign, the output and input signals are out of phase. If both signals must be in phase, a non-inverting amplifier is used.
 
 ### 3.1.6 Summing Amplifier Circuit
 
