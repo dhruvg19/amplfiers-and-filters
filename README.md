@@ -11,7 +11,7 @@ comparison, analog to digital conversion etc. Opamp are used is analog computers
 <img src="https://user-images.githubusercontent.com/63674480/79279637-15a84980-7ecc-11ea-9c91-2d6b1359765b.png"/>
 </p>
                                               
-                                          Figure 21: schematic symbol of Op-amp
+                                          Figure 3.1: schematic symbol of Op-amp
 
                               
 IC 741 is widely used Op-amp. In this IC when input is zero, the output can be adjusted
@@ -41,7 +41,7 @@ assumptions when the OA is under positive feedback.
 <img src="https://user-images.githubusercontent.com/63674480/79671259-d2f5b280-81e6-11ea-9e0f-d6dd67df44dd.png"/>
 </p>         
 
-                                           Figure 22: Block diagram of Opamp
+                                           Figure 3.2: Block diagram of Opamp
 
 An opamp has two input terminals:
 1. Non-inverting input: output signal is in phase with input signal, denoted by (+).
@@ -53,7 +53,7 @@ An opamp has two input terminals:
 <img src="https://user-images.githubusercontent.com/63674480/79672644-a72bfa00-81f1-11ea-83c8-c0ae1fd98b57.png"/>
 </p>
 
-                                            Figure 23: Non-inverting Opamp
+                                            Figure 3.3: Non-inverting Opamp
 
 Using the formula to calculate the output voltage of a potential divider network, we can calculate the closed-loop voltage gain (A<sub>V</sub>) of the Non-inverting Amplifier as follows:
 
@@ -68,7 +68,7 @@ Using the formula to calculate the output voltage of a potential divider network
 <img src="https://user-images.githubusercontent.com/63674480/79280494-1d68ed80-7ece-11ea-8bb8-1f8cbe954b41.png"/>
 </p>
 
-                                            Figure 24: Inverting Opamp
+                                            Figure 3.4: Inverting Opamp
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79672883-5a492300-81f3-11ea-830f-4eb295299641.png"/>
@@ -80,7 +80,7 @@ Using the formula to calculate the output voltage of a potential divider network
 <img src="https://user-images.githubusercontent.com/63674480/79673016-6ed9eb00-81f4-11ea-8b2e-92ec5caa8803.png"/>
 </p>
 
-                                             Figure 25: Summing Amplifier
+                                             Figure 3.5: Summing Amplifier
 
 In this simple summing amplifier circuit, the output voltage, (V<sub>out</sub>) now becomes proportional to the sum of the input voltages, V<sub>1</sub>, V<sub>2</sub>, V<sub>3</sub>, etc. Then we can modify the original equation for the inverting amplifier to take account of these new inputs thus:
 
@@ -94,7 +94,7 @@ In this simple summing amplifier circuit, the output voltage, (V<sub>out</sub>) 
 <img src="https://user-images.githubusercontent.com/63674480/79673112-0fc8a600-81f5-11ea-865f-62eed443b0a1.png"/>
 </p>
 
-                                              Figure 26: Differential Amplifier
+                                              Figure 3.6: Differential Amplifier
 
 By connecting each input in turn to 0v ground we can use superposition to solve for the output voltage Vout. Then the transfer function for a Differential Amplifier circuit is given as:
 
@@ -108,7 +108,7 @@ By connecting each input in turn to 0v ground we can use superposition to solve 
 <img src="https://user-images.githubusercontent.com/63674480/79673460-8bc3ed80-81f7-11ea-9637-b7b0822f0723.png"/>
 </p>
 
-                                               Figure 27: Differentiator Amplifier
+                                               Figure 3.7: Differentiator Amplifier
 
 Since the node voltage of the operational amplifier at its inverting input terminal is zero, the current, i flowing through the capacitor will be given as:
 
@@ -146,7 +146,7 @@ from which we have an ideal voltage output for the op-amp differentiator is give
 <img src="https://user-images.githubusercontent.com/63674480/79281309-1d69ed00-7ed0-11ea-85f7-44c9ad8421f3.png"/>
 </p>
 
-                                             Figure 28: Opamp as buffer
+                                             Figure 3.8: Opamp as buffer
                                                            
 # SECTION 4: ACTIVE AND PASSIVE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
