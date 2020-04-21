@@ -34,8 +34,16 @@ and non-inverting terminals always track each other, such that their difference 
 **Caution:-** These assumptions are applicable only for OAs under negative feedback, never apply these
 assumptions when the OA is under positive feedback.
 
+### 3.1.3 Negative Feedback:
 
-### 3.1.3 Block diagram and inputs
+Here the output of the Op-Amp is connected to its Inverting ( – ) input, thus the output is fed back to the input so as to reach an equilibrium. Thus the input signal at the Non Inverting (+) input will be reflected at the output. The Op-amp with the negative feedback will drive its output to level necessary and hence the voltage difference between its inverting and non inverting inputs will be almost zero.
+
+### 3.1.4 Positive Feedback
+
+Here the output voltage is fed back to the Non inverting (+) input. The input signal is fed to the Inverting input. In positive feedback design, if the Inverting input is connected to ground, then the output voltage from the Op-amp will depends on the magnitude and polarity of voltage at the Non inverting input. When the input voltage is positive, then the output of the Op-Amp will be positive and this positive voltage will be fed to the Non inverting input resulting in a full positive output. If the input voltage is negative, then the condition will be reversed.
+
+
+### 3.1.5 Block diagram and inputs
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79919797-ae027900-844c-11ea-967f-429f34877b23.png"/>
@@ -46,26 +54,8 @@ assumptions when the OA is under positive feedback.
 An opamp has two input terminals:
 1. Non-inverting input: output signal is in phase with input signal, denoted by (+).
 2. Inverting input: output signal is out of phase with input signal, denoted by (-).
-
-### 3.1.4 Non-inverting Opamp
-
-This configuration is very similar to the inverting operation amplifier. For the non-inverting one, the input voltage is directly to the applied to the non-inverting pin and the end of feedback loop is connected to ground.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79920684-4816f100-844e-11ea-82d5-5426bc613aa5.png"/>
-</p>
-
-                                            Figure 3.3: Non-inverting Opamp
-
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79920740-67158300-844e-11ea-88e9-9dc5d880d60a.png"/>
-</p>
-
-These configurations allow amplification of one signal. It’s possible to amplify several signals by using summing amplifiers.
-
  
-### 3.1.5 Inverting Opamp
+### 3.1.6 Inverting Opamp
 
 In this configuration, the output is fed back to the negative or inverting input through a resistor (R2). The input signal is applied to this inverting pin through a resistor (R1).
 
@@ -85,19 +75,58 @@ This is evident in the special case where R1 and R2 are equal. This configuratio
 
 Due to the negative sign, the output and input signals are out of phase. If both signals must be in phase, a non-inverting amplifier is used.
 
-### 3.1.6 Summing Amplifier Circuit
+### 3.1.7 Non-inverting Opamp
+
+This configuration is very similar to the inverting operation amplifier. For the non-inverting one, the input voltage is directly to the applied to the non-inverting pin and the end of feedback loop is connected to ground.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673016-6ed9eb00-81f4-11ea-8b2e-92ec5caa8803.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79920684-4816f100-844e-11ea-82d5-5426bc613aa5.png"/>
 </p>
 
-                                             Figure 3.5: Summing Amplifier
+                                            Figure 3.3: Non-inverting Opamp
 
-In this simple summing amplifier circuit, the output voltage, (V<sub>out</sub>) now becomes proportional to the sum of the input voltages, V<sub>1</sub>, V<sub>2</sub>, V<sub>3</sub>, etc. Then we can modify the original equation for the inverting amplifier to take account of these new inputs thus:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63674480/79673033-7ef1ca80-81f4-11ea-9698-ae17cace4406.png"/>
+<img src="https://user-images.githubusercontent.com/63674480/79920740-67158300-844e-11ea-88e9-9dc5d880d60a.png"/>
 </p>
+
+These configurations allow amplification of one signal. It’s possible to amplify several signals by using summing amplifiers.
+
+### 3.1.8 Non-inverting Summing Amplifier
+
+To add 2 voltages, only 2 resistors can be added on the positive pin to the non-inverting operational amplifier circuit.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79921452-d770d400-844f-11ea-906f-3421748a0395.png"/>
+</p>
+
+                                             Figure 3.5: Non-Inverting Summing Amplifier
+                                             
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79921529-f53e3900-844f-11ea-8cbe-07421c30614b.png"/>
+</p>
+
+It is worth noticing that adding several voltages is not a very flexible solution. Indeed, if a 3 <sup>rd</sup> voltage is added with exactly the same resistances, the formula would be Vs = 2/3 (V <sub>1</sub> + V <sub>2</sub> + V <sub>3</sub>).
+
+The resistors would need to be changed to get Vs = V <sub>1</sub> + V <sub>2</sub> + V <sub>3</sub>, or a 2 <sup>nd</sup> option is to use an inverting summer amplifier.
+
+### Inverting Summing Amplifier
+
+By adding resistors in parallel on the inverting input pin of the inverting operation amplifier circuit, all the voltages are summed.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79921752-87ded800-8450-11ea-89b7-f119d5993e76.png"/>
+</p>
+
+                                             Figure 3.6: Inverting Summing Amplifier
+                                             
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63674480/79921782-9d540200-8450-11ea-9311-a0f9cdc001d5.png"/>
+</p>
+
+Unlike the non-inverting summing amplifier, any number of voltages can be added without changing resistor values.
 
 ### 3.1.7 The Differential Amplifier
 
