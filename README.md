@@ -223,6 +223,8 @@ used to attenuate a narrow range of frequencies.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281389-3ecad900-7ed0-11ea-8467-d8e1fadf0f9f.png"/>
 </p>
+
+                                              Figure 4.1: Types of Filters
  
  ## 4.1 Low Pass Filter
  Allows low-frequency signals and difficult passage to high-frequency signals.
@@ -233,11 +235,15 @@ used to attenuate a narrow range of frequencies.
 <img src="https://user-images.githubusercontent.com/63674480/79281436-55713000-7ed0-11ea-96ee-7b6af18e047e.png"/>
 </p>
 
+                                               Figure 4.2: Low Pass Filter
+
 • Capacitive Low-Pass Filter
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281473-6ae65a00-7ed0-11ea-923b-a9e1530facb8.png"/>
 </p>
+
+                                               Figure 4.3 Capacitive Low Pass Filter
 
 ## 4.2 High Pass Filter
 
@@ -250,11 +256,15 @@ signal.
 <img src="https://user-images.githubusercontent.com/63674480/79281779-1abbc780-7ed1-11ea-85ee-1b1b618269d6.png"/>
 </p>
 
+                                                Figure 4.4: Inductive High Pass Filter
+
 • Capacitive High Pass Filter
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281812-2e672e00-7ed1-11ea-966f-ea8dcd59d2bb.png"/>
 </p>
+
+                                                Figure 4.5: Capacitive High Pass Filter
 
 ## 4.3 Band Pass Filter
 
@@ -264,6 +274,8 @@ Combining the properties of low-pass and high-pass into a single filter creates 
 <img src="https://user-images.githubusercontent.com/63674480/79281910-68d0cb00-7ed1-11ea-83af-c4e0dad5f7d0.png"/>
 </p>
 
+                                                 Figure 4.3: Band Pass Filter
+
 ## 4.4 Band Stop Filter
 
 This kind of filter passes all frequencies above and below a particular range set by the
@@ -272,6 +284,8 @@ component values.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281938-7c7c3180-7ed1-11ea-856e-b738ce577a63.png"/>
 </p>
+
+                                                Figure 4.4: Band Stop Filter
 
 ## 4.5 Passive Filter
 
@@ -292,6 +306,8 @@ filter.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79282000-a7ff1c00-7ed1-11ea-8e74-28eb61a22677.png"/>
 </p>
+
+                                                  Figure 4.5: Passive Filter
 
 ## 4.6 Active Filter:
 
@@ -314,6 +330,8 @@ known as active filter.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63674480/79281973-91f15b80-7ed1-11ea-8553-77d71371d86d.png"/>
 </p>
+
+                                                Figure 4.6: Active Filter
 
 
 **Applications**
