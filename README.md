@@ -205,6 +205,10 @@ It is made by adding a non-inverting buffer to each input of the differential am
 </p>
 
                                              Figure 3.12: Opamp as buffer
+                                             
+The buffer is an extremely useful circuit, since it helps to solve many impedance issues. The input impedance of the op-amp buffer is very high: close to infinity. And the output impedance is very low: just a few ohms.
+
+This means we can use buffers to help chain together sub-circuits in stages without worrying about impedance problems. The buffer gives benefits similar to those of the emitter follower we looked at with transistors, but tends to work more ideally.
                                                            
 # SECTION 4: ACTIVE AND PASSIVE FILTERS
 The filter is a circuit which changes amplitude and phase of the input signal and produces
